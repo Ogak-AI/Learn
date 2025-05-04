@@ -1,73 +1,51 @@
-/* General Reset */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
     font-family: Arial, sans-serif;
-    line-height: 1.6;
-}
-
-/* Hero Section */
-.hero {
-    background-color: #2a9d8f;
-    color: white;
+    margin: 0;
+    padding: 0;
     text-align: center;
-    padding: 60px 20px;
 }
 
-.hero h1 {
-    font-size: 2.5em;
-}
-
-.hero p {
-    margin: 20px 0;
-    font-size: 1.2em;
-}
-
-.cta-button {
-    background-color: #264653;
+header {
+    background: #007bff;
     color: white;
-    padding: 12px 24px;
+    padding: 40px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #fff;
+    color: #007bff;
     text-decoration: none;
     border-radius: 5px;
 }
 
-/* Features Section */
-.features {
+#features {
     display: flex;
-    justify-content: space-around;
-    padding: 40px 20px;
-    flex-wrap: wrap;
-    background-color: #f4f4f4;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
 }
 
 .feature {
-    flex: 1 1 250px;
-    max-width: 300px;
-    margin: 20px;
-    text-align: center;
+    background: #f4f4f4;
+    padding: 20px;
+    width: 30%;
+    border-radius: 5px;
 }
 
-.feature img {
-    width: 64px;
-    margin-bottom: 15px;
-}
-
-/* Footer */
-.footer {
-    background-color: #264653;
+footer {
+    background: #222;
     color: white;
-    text-align: center;
     padding: 20px;
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
-    .features {
+    #features {
         flex-direction: column;
-        align-items: center;
+    }
+    
+    .feature {
+        width: 100%;
     }
 }
