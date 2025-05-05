@@ -3,35 +3,123 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Responsive Landing Page</title>
+    <title>TaskFlow - Streamline Your Productivity</title>
     <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-
     <header>
-        <h1>Your Service Name</h1>
-        <p>Providing the best solutions to meet your needs.</p>
-        <a href="#features" class="btn">Learn More</a>
+        <nav class="container">
+            <div class="logo">
+                <h2>TaskFlow</h2>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <section id="features">
-        <div class="feature">
-            <h2>Fast & Efficient</h2>
-            <p>Our services ensure quick and reliable results.</p>
-        </div>
-        <div class="feature">
-            <h2>User-Friendly</h2>
-            <p>Simple and intuitive design for the best experience.</p>
-        </div>
-        <div class="feature">
-            <h2>24/7 Support</h2>
-            <p>Dedicated team available around the clock.</p>
-        </div>
-    </section>
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Streamline Your Workflow</h1>
+                    <p>TaskFlow helps you organize your tasks, collaborate with your team, and boost your productivity.</p>
+                    <button class="cta-button">Get Started for Free</button>
+                </div>
+                <div class="hero-image">
+                    <img src="https://via.placeholder.com/500x400" alt="TaskFlow dashboard preview">
+                </div>
+            </div>
+        </section>
 
+        <!-- Features Section -->
+        <section class="features">
+            <div class="container">
+                <h2 class="section-title">Key Features</h2>
+                <div class="features-grid">
+                    <!-- Feature 1 -->
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-tasks"></i>
+                        </div>
+                        <h3>Task Management</h3>
+                        <p>Create, organize, and prioritize tasks with our intuitive drag-and-drop interface.</p>
+                    </div>
+
+                    <!-- Feature 2 -->
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h3>Team Collaboration</h3>
+                        <p>Share projects, assign tasks, and communicate with your team in real-time.</p>
+                    </div>
+
+                    <!-- Feature 3 -->
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h3>Progress Tracking</h3>
+                        <p>Monitor your productivity with visual charts and detailed progress reports.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonial Section -->
+        <section class="testimonials">
+            <div class="container">
+                <h2 class="section-title">What Our Users Say</h2>
+                <div class="testimonial-card">
+                    <p>"TaskFlow transformed how our team manages projects. We've increased our productivity by 40% since we started using it!"</p>
+                    <div class="testimonial-author">
+                        <p><strong>Sarah Johnson</strong> - Marketing Director</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
     <footer>
-        <p>&copy; 2025 Your Company | Contact us at <a href="mailto:info@yourcompany.com">info@yourcompany.com</a></p>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>TaskFlow</h2>
+                    <p>Simplify. Organize. Succeed.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Features</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact Us</h3>
+                    <p><i class="fas fa-envelope"></i> info@taskflow.com</p>
+                    <p><i class="fas fa-phone"></i> (555) 123-4567</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 TaskFlow. All rights reserved.</p>
+            </div>
+        </div>
     </footer>
-
 </body>
 </html>
